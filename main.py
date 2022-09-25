@@ -19,3 +19,7 @@ elif test[1][0][0][1] == "open":
     print("\t"+Back.MAGENTA + " critical "+Style.RESET_ALL+Fore.RED ,f"FTP Service Detected."+ Style.RESET_ALL)
 elif test[1][0][2][1] == "open":
     print("\t"+Back.YELLOW + " medium "+Style.RESET_ALL+Fore.RED ,f"SMB Ports are Open Over TCP."+ Style.RESET_ALL)
+else:
+    print("\t\tNone\n")
+
+

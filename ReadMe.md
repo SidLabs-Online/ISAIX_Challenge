@@ -10,6 +10,13 @@
 
 ![Results](./step2.png)
 
+## Testing
+
+### Screenshot of testing the scanner component returning a List
+
+![Test Results](./test.png)
+
+
 ## P.S.
 
 ### The results are currently thrown into a list, however the same can be captured in json and posted to DB, the Json code is present in the _scanner.py module in a commented form

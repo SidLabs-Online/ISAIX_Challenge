@@ -7,6 +7,7 @@ def scan_now(target):
     
 
     nScan.scan(target, '23,445,3389')
+    #nScan.scan(target, '22,25,80,111,443,3389')
     tcpList = []
     for host in nScan.all_hosts():
         print('Host : %s (%s)' % (host, nScan[host].hostname()))

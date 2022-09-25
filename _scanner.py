@@ -29,7 +29,7 @@ def scan_now(target):
     #print(final_list)
     
 
-
+    ## To export the data in Json
     # json_string = json.dumps(final_list)  
     # print(json_string)
     # with open("sample.json", "a") as outfile:

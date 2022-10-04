@@ -21,9 +21,12 @@ def scan_now(target, ports):
         else:
             tcpList.append([items, "closed"])   
 
-    final_list = [target,[tcpList]]
+    
+    flat_list = [item for sublist in tcpList for item in sublist]
 
-    return final_list
+    #final_list = [target,[flat_list]]
+
+    return flat_list
 
 
 

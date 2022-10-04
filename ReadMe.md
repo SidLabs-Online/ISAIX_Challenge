@@ -8,7 +8,7 @@ _Please see : there are two branches where the main branch returns a list and th
 
 ## Step 2
 
-### Results shown below with google static IP 8.8.8.8
+### Results shown below with IP 20.220.195.124
 
 ![Results](./step2.png)
 

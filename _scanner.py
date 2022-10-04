@@ -24,8 +24,6 @@ def scan_now(target, ports):
     
     flat_list = [item for sublist in tcpList for item in sublist]
 
-    #final_list = [target,[flat_list]]
-
     return flat_list
 
 
